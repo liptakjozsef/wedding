@@ -72,7 +72,6 @@
   }
 
 }
-
 @media (min-width: 768px) {
 
   .tag {
@@ -142,14 +141,14 @@
   }
   @media (min-width: 768px) {
 
-    .questions {
+    .location {
       display: inline-block;
       width: 30%;
       padding: 1.5rem;
       margin: .5rem;
     }
   
-    .questions::after {
+    .location::after {
       display: none;
     }
   
@@ -202,7 +201,7 @@
 }
 
 .question h2 {
-  margin-top: 1rem; /* To even out top and bottom margins. */
+  margin-top: 1rem; 
 }
 
 .question p {
