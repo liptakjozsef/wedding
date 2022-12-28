@@ -1,7 +1,7 @@
 * {
     box-sizing: border-box;
   }
-  /* HEADER STYLES */
+  /* ------ header stiles ------ */
 
   .cover {
     background: url('https://orange.codeberryschool.com/content/images/project-assets/wedding-landing-cover.jpg') no-repeat 70% center/cover;
@@ -56,11 +56,6 @@
   .cover {
     background: url('https://orange.codeberryschool.com/content/images/project-assets/wedding-landing-cover.jpg') no-repeat center/cover;
   }
-
-}
-
-@media (min-width: 768px) {
-
   .text {
     padding: 1.25rem;
     border-radius: 4px;
@@ -70,17 +65,11 @@
   .text h1 {
     font-size: 7rem;
   }
-
-}
-@media (min-width: 768px) {
-
   .tag {
     text-transform: uppercase;
   }
 
-}
-
-/*     GENERAL STYLES */
+/* -----    general styles  ------- */
 
   h1, h2, h3, ul, ol, p,
   img {
@@ -120,7 +109,7 @@
     color: #eda087;
     transition: color .15s ease-in-out;
   }
-  /*  LOCATIONS STYLES  */
+  /* ----- locations styles ------  */
 
 .location img {
     height: 7.5rem;
@@ -154,7 +143,7 @@
   
   }
 
-  /*     PROGRAM STYLES   */
+  /*  -----   program styles  -----   */
 
 .program {
     width: 100vw;
@@ -183,7 +172,7 @@
   
   }
 
-/*     GIFTS STYLES   */
+/*  -----   gifts ------  */
 
 .gifts img {
   height: 7.5rem;
@@ -191,7 +180,7 @@
 .gifts p:last-child {  
   margin-bottom: 0;
 }
-/*   questions STYLES  */
+/* -----  questions-answers -----   */
 
 .questions {
   background: hsla(100,0%,0%,.6);
@@ -246,7 +235,7 @@
 
 }
 
-/*   FOOTER STYLES   */
+/* -----  footer  ------  */
 
 footer {
   height: 10vh;
@@ -278,4 +267,5 @@ footer small {
     min-height: 7vh;
   }
 
+}
 }
