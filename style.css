@@ -4,7 +4,7 @@
   /* ------ header stiles ------ */
 
   .cover {
-    background: url('https://orange.codeberryschool.com/content/images/project-assets/wedding-landing-cover.jpg') no-repeat 70% center/cover;
+    background: url('assets/cover.jpg') no-repeat 70% center/cover;
     display: table;
     text-align: center;
     height: 100vh;
@@ -54,7 +54,7 @@
 @media (min-width: 768px) {
 
   .cover {
-    background: url('https://orange.codeberryschool.com/content/images/project-assets/wedding-landing-cover.jpg') no-repeat center/cover;
+    background: url('assets/cover.jpg') no-repeat center/cover;
   }
   .text {
     padding: 1.25rem;
@@ -68,6 +68,7 @@
   .tag {
     text-transform: uppercase;
   }
+}
 
 /* -----    general styles  ------- */
 
@@ -77,7 +78,7 @@
   }
   
   body {
-    background: url('https://orange.codeberryschool.com/content/images/project-assets/wedding-landing-background.png') repeat center;
+    background: url('assets/background.png') repeat center;
     font-family: 'Libre Baskerville', serif;
     font-size: 1.3rem;
     line-height: 1.5;
@@ -182,6 +183,7 @@
 }
 /* -----  questions-answers -----   */
 
+
 .questions {
   background: hsla(100,0%,0%,.6);
   color: #d2ba87;
@@ -236,10 +238,9 @@
 }
 
 /* -----  footer  ------  */
-
 footer {
   height: 10vh;
-  width: 100vw;
+  width: 100%;
   background-color: #606060;
   color: #fff;
   font-family: 'Muli', sans-serif;
@@ -261,11 +262,11 @@ footer p {
 footer small {
   line-height: 1.5;
 }
+
 @media (min-width: 768px) {
 
   footer {
     min-height: 7vh;
   }
 
-}
 }
